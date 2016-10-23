@@ -10,6 +10,9 @@ public class UnityChanController : MonoBehaviour {
 	Rigidbody2D rigid2D;
 
 	//地面の位置
+
+	[Header ("Shop----->")][Space (10)]
+	[SerializeField]
 	private float groundLevel = -3.0f;
 
 	//ジャンプの速度の減衰
